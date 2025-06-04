@@ -8,7 +8,7 @@ The video hasn't been released yet, but I'll update this line when it is.[]()
 
 This design battle was to take place over the course of 2 hours, during which the participants and I would have to complete the schematic capture and PCB layout. Here's the design guidelines we were given:
 
-`"Design a small, battery-powered PCB that reads temperature and sends the data wirelessly to a mobile app. The device must also indicate the temperature locally, this could be a display, an LED (flashing speed or color indicates temp), or something else creative. You can use any MCU, sensor, wireless method, and battery type (rechargeable, coin cells, or alkalines). You have 2 hours to complete the design."`
+> Design a small, battery-powered PCB that reads temperature and sends the data wirelessly to a mobile app. The device must also indicate the temperature locally, this could be a display, an LED (flashing speed or color indicates temp), or something else creative. You can use any MCU, sensor, wireless method, and battery type (rechargeable, coin cells, or alkalines). You have 2 hours to complete the design.
 
 There are two folders in this repository.
 - `ESP_32_Battle` is my official end result of the 2 hour battle
@@ -17,3 +17,6 @@ There are two folders in this repository.
 I took inspiration from a few of my previous ESP32 designs, of which this board shares many similarities.
 
 While I hope they would work if made, I make no guarantees to the functionality of these PCBs.
+
+![A 3D render of the final 4h PCB layout](ESP_32_Battle_4h_3D.png)
+![The final schematic after 4h](ESP_32_Battle_4h_schematic.png)
